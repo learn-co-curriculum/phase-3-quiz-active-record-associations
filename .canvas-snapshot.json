@@ -4,7 +4,7 @@
     "title": "Active Record Associations Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19076",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19076?force_user=1&persist_headless=1",
-    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-active-record-associations\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-active-record-associations/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -29,7 +29,7 @@
       "asset_string": "quizzes:quiz_19076"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": null,
+    "hide_results": "until_after_last_attempt",
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6376,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "g22911fec9dc1ffdc72feff6cca25bee1",
@@ -88,37 +88,37 @@
       "position": null,
       "question_name": "Active Record Associations: Intro",
       "question_type": "multiple_choice_question",
-      "question_text": "<div><span>Imagine that you are a Pokémon trainer. A Pokémon trainer can carry up to 6 Pokémon at a time. If you were to have a model for <code>Trainer</code> and a model for <code>Pokemon</code>, what type of relationship would be best to use?</span></div>",
+      "question_text": "<p>Imagine that you are a Pokémon trainer. A Pokémon trainer can carry up to 6\nPokémon at a time, and each Pokémon can only be owned by a single trainer at a\ntime. If you were to have a model for <code>Trainer</code> and a model for <code>Pokemon</code>, what\ntype of relationship would be best to use?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133959?module_item_id=278759\" target=\"_blank\">One to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133959\">One to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7634,
-          "text": "One-to-many",
-          "html": "",
+          "id": 9884,
+          "text": "",
+          "html": "<p>One-to-many</p>",
           "comments": "",
-          "comments_html": "Correct! A Trainer would have many Pokemon, and a Pokemon would belong to a single Trainer.",
+          "comments_html": "<p>Correct! A Trainer would have many Pokemon, and a Pokemon would belong to a\nsingle Trainer.</p>",
           "weight": 100.0
         },
         {
-          "id": 4629,
-          "text": "Many-to-many",
-          "html": "",
+          "id": 2119,
+          "text": "",
+          "html": "<p>Many-to-many</p>",
           "comments": "",
-          "comments_html": "Not quite. How many Trainers can carry a Pokemon at a time.",
+          "comments_html": "<p>Not quite. How many Trainers can carry a Pokemon at a time.</p>",
           "weight": 0.0
         },
         {
-          "id": 8109,
-          "text": "I don't know.",
-          "html": "",
+          "id": 7590,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -137,37 +137,37 @@
       "position": null,
       "question_name": "Active Record Associations: Intro",
       "question_type": "multiple_choice_question",
-      "question_text": "<p><span>A Pokémon trainer can hone their Pokémons' skills at a gym. A Pokémon trainer can train at multiple gyms and gyms can accept many trainers. </span><span>What type of relationship would be best to use between&nbsp;</span><code>Trainer</code><span>&nbsp;and&nbsp;</span><code>Gym</code><span>?</span></p>",
+      "question_text": "<p>A Pokémon trainer can hone their Pokémons' skills at a gym. A Pokémon trainer\ncan train at multiple gyms and gyms can accept many trainers. What type of\nrelationship would be best to use between <code>Trainer</code> and <code>Gym</code>?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134080\">Many to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3033,
-          "text": "Many-to-many",
-          "html": "",
+          "id": 9302,
+          "text": "",
+          "html": "<p>Many-to-many</p>",
           "comments": "",
-          "comments_html": "Exactly! Many Trainers can train at a gym and Trainers can train at many gyms.",
+          "comments_html": "<p>Exactly! Many Trainers can train at a gym and Trainers can train at many gyms.</p>",
           "weight": 100.0
         },
         {
-          "id": 1341,
-          "text": "One-to-many",
-          "html": "",
+          "id": 2756,
+          "text": "",
+          "html": "<p>One-to-many</p>",
           "comments": "",
-          "comments_html": "Not quite. A Trainer can train at multiple gyms and a single gym can accept multiple Trainers.",
+          "comments_html": "<p>Not quite. A Trainer can train at multiple gyms and a single gym can accept\nmultiple Trainers.</p>",
           "weight": 0.0
         },
         {
-          "id": 4461,
-          "text": "I don't know.",
-          "html": "",
+          "id": 1394,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -186,37 +186,37 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p><span>A Pokedex is a mini-encyclopedia of Pokémon species, types, evolutions, and moves. True or False: A </span><code>Pokedex</code><span> model would have a </span><code>has_many</code><span>&nbsp;relationship for&nbsp;</span><code>Pokemon</code><span>.</span></p>",
+      "question_text": "<p>A Pokedex is a mini-encyclopedia of Pokémon species, types, evolutions, and\nmoves.</p>\n\n<p>True or False: A <code>Pokedex</code> model would have a <code>has_many</code> relationship for\n<code>Pokemon</code>.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133959?module_item_id=278759\" target=\"_blank\">One to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133959\">One to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3984,
-          "text": "True",
-          "html": "",
+          "id": 2396,
+          "text": "",
+          "html": "<p>True</p>",
           "comments": "",
-          "comments_html": "Exactly! A Pokedex would list many Pokemon.",
+          "comments_html": "<p>Exactly! A Pokedex would list many Pokemon.</p>",
           "weight": 100.0
         },
         {
-          "id": 2711,
-          "text": "False",
-          "html": "",
+          "id": 7114,
+          "text": "",
+          "html": "<p>False</p>",
           "comments": "",
-          "comments_html": "Not quite. How many Pokemon can a Pokedex list? Can it list one or many?",
+          "comments_html": "<p>Not quite. How many Pokemon can a Pokedex list? Can it list one or many?</p>",
           "weight": 0.0
         },
         {
-          "id": 3219,
-          "text": "I don't know",
-          "html": "",
+          "id": 547,
+          "text": "",
+          "html": "<p>I don't know</p>",
           "comments": "",
-          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -235,94 +235,45 @@
       "position": null,
       "question_name": "Active Record Associations: Intro",
       "question_type": "multiple_choice_question",
-      "question_text": "<pre><code>\nclass Pokemon &lt; ActiveRecord::Base\n  belongs_to :trainer\nend\n</code></pre>\n<p><span>All Pokémon can learn skills. What association should be added to the above&nbsp;</span><code>Pokemon</code><span>&nbsp;model so that&nbsp;</span><code>Skill</code><span>s can be attributed to it?</span></p>",
+      "question_text": "<p>All Pokémon can learn multiple skills. Given the following class definition:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Pokemon</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:trainer</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What association should be added to the above <code>Pokemon</code> model so that <code>Skill</code>s\ncan be attributed to it?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134080\">Many to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2402,
+          "id": 5811,
           "text": "",
-          "html": "<pre>has_many :skills</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">has_many</span> <span class=\"ss\">:skills</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "Correct! There is a direct relationship between Pokemon and Skill, and a Pokemon has many Skills.",
+          "comments_html": "<p>Correct! There is a direct relationship between Pokemon and Skill, and a Pokemon\nhas many Skills.</p>",
           "weight": 100.0
         },
         {
-          "id": 1991,
+          "id": 5138,
           "text": "",
-          "html": "<pre>belongs_to :skill</pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">belongs_to</span> <span class=\"ss\">:skill</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "Not quite. This means that a Pokemon could have only one Skill.",
+          "comments_html": "<p>Not quite. This means that a Pokemon could have only one Skill.</p>",
           "weight": 0.0
         },
         {
-          "id": 7239,
+          "id": 6787,
           "text": "",
-          "html": "<pre><span>has_many :skills, through: :trainer</span></pre>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">has_many</span> <span class=\"ss\">:skills</span><span class=\"p\">,</span> <span class=\"ss\">through: :trainer</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "Not quite. There is a direct relationship between Pokemon and Skills.",
+          "comments_html": "<p>Not quite. There is a direct relationship between Pokemon and Skills.</p>",
           "weight": 0.0
         },
         {
-          "id": 9062,
-          "text": "I don't know.",
-          "html": "",
+          "id": 7471,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 19076,
-      "id": 120432,
-      "quiz_group_id": null,
-      "assessment_question_id": 183459,
-      "position": null,
-      "question_name": "Active Record Associations: Intro",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>True or False: Given that all Pokémon can learn skills, a Pokémon trainer can have many <code>Skill</code>s through <code>Pokemon</code>.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></p>",
-      "answers": [
-        {
-          "id": 7510,
-          "text": "True",
-          "html": "",
-          "comments": "",
-          "comments_html": "Excellent! The Trainer can gains Skills through the Pokemon. Does that mean that the Pokemon are technically doing all the work?",
-          "weight": 100.0
-        },
-        {
-          "id": 8138,
-          "text": "False",
-          "html": "",
-          "comments": "",
-          "comments_html": "Not quite. Is there a direct or indirect relationship between Trainers and Skills? How can we get a Trainer's Skills?",
-          "weight": 0.0
-        },
-        {
-          "id": 567,
-          "text": "I don't know.",
-          "html": "",
-          "comments": "",
-          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -341,45 +292,45 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Say we have an app with <code>Dog</code> and <code>Toy</code> models, where toys belong to dogs and dogs have many toys. Which sql table should contain the foreign key?</p>",
+      "question_text": "<p>Say we have an app with <code>Dog</code> and <code>Toy</code> models, where toys belong to dogs and\ndogs have many toys. Which SQL table should contain the foreign key?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133959?module_item_id=278759\" target=\"_blank\">One to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133959\">One to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1556,
-          "text": "toys",
-          "html": "",
+          "id": 2733,
+          "text": "",
+          "html": "<p><code>toys</code></p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! In our model, toys belong to dogs so the toys table should contain the foreign key.</span></div>\n</div>",
+          "comments_html": "<p>Yes! In our model, toys belong to dogs so the <code>toys</code> table should contain the\n<code>dog_id</code> foreign key.</p>",
           "weight": 100.0
         },
         {
-          "id": 1684,
-          "text": "dogs",
-          "html": "",
+          "id": 1278,
+          "text": "",
+          "html": "<p><code>dogs</code></p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite! In our model, toys belong to dogs so the toys table should contain the foreign key.</span></div>\n</div>",
+          "comments_html": "<p>Not quite! In our model, toys belong to dogs so the <code>toys</code> table should\ncontain the <code>dog_id</code> foreign key.</p>",
           "weight": 0.0
         },
         {
-          "id": 2016,
-          "text": "It's necessary to create a join table.",
-          "html": "",
+          "id": 6773,
+          "text": "",
+          "html": "<p>It's necessary to create a join table.</p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>This is a one-to-many association, so we don't need a join.</span></div>\n</div>",
+          "comments_html": "<p>This is a one-to-many association, so we don't need a join table.</p>",
           "weight": 0.0
         },
         {
-          "id": 6007,
-          "text": "I don't know.",
-          "html": "",
+          "id": 6904,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -397,55 +348,47 @@
       "assessment_question_id": 185550,
       "position": null,
       "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Say we have an app with <code>Dog</code> and <code>Toy</code> models, where toys belong to dogs and dogs have many toys. Which of the following will correctly create a new toy and associate it with the dog with id=2?</p>",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Say we have an app with <code>Dog</code> and <code>Toy</code> models, where toys belong to dogs and\ndogs have many toys. Which of the following will correctly create a new toy and\nassociate it with the dog with an <code>id</code> of 2?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133959?module_item_id=278759\" target=\"_blank\">One to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133959\">One to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4575,
+          "id": 713,
           "text": "",
-          "html": "<pre>Toy.create(name: \"Squeaky Cheeseburger\", dog_id: 2)</pre>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>It's true that this code will work, but you might want to take another look at the other snippets.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Correct! We can use the <code>dog_id</code> foreign key directly when creating a new toy.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">,</span> <span class=\"ss\">dog_id: </span><span class=\"mi\">2</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 1126,
+          "id": 6841,
           "text": "",
-          "html": "<pre>dog = Dog.find(2) <br>Toy.create(name: \"Squeaky Cheeseburger\", dog: dog)</pre>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>It's true that this code will work, but you might want to take another look at the other snippets.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Yes indeed! We can create a new new <code>Toy</code> instance and associate it with the\ncorrect dog by providing a <code>Dog</code> instance, so long as we have the\n<code>belongs_to: :dog</code> method set up in the <code>Toy</code> model.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"mi\">2</span><span class=\"p\">)</span>\n<span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">,</span> <span class=\"ss\">dog: </span><span class=\"n\">dog</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 6296,
+          "id": 3729,
           "text": "",
-          "html": "<pre>dog = Dog.find_by(id: 2) <br>dog.toys &lt;&lt; Toy.create(name: \"Squeaky Cheeseburger\")</pre>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>It's true that this code will work, but you might want to take another look at the other snippets.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Right! We can create a new new <code>Toy</code> instance and associate it with the correct dog\nby using the shovel operator, so long we have set up the <code>has_many :toys</code>\nmethod on the <code>Dog</code> class.</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">find_by</span><span class=\"p\">(</span><span class=\"ss\">id: </span><span class=\"mi\">2</span><span class=\"p\">)</span>\n<span class=\"n\">dog</span><span class=\"p\">.</span><span class=\"nf\">toys</span> <span class=\"o\">&lt;&lt;</span> <span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 3938,
-          "text": "All of these will work.",
-          "html": "",
+          "id": 5413,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! The snippets show three different ways we can accomplish our task.</span></div>\n</div>",
-          "weight": 100.0
-        },
-        {
-          "id": 2698,
-          "text": "I don't know.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -463,45 +406,45 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Say we have an app with <code>Doctor</code> and <code>Patient</code> models, where doctors have many patients and patients have many doctors. Which sql table should include the foreign key?</p>",
+      "question_text": "<p>Say we have an app with <code>Doctor</code> and <code>Patient</code> models, where doctors have many\npatients and patients have many doctors. Which SQL table should include the\nforeign key?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134080\">Many to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7206,
-          "text": "doctors",
-          "html": "",
+          "id": 8396,
+          "text": "",
+          "html": "<p><code>doctors</code></p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite! What do we need to do to set up a many-to-many association?</span></div>\n</div>",
+          "comments_html": "<p>Not quite! What do we need to do to set up a many-to-many association?</p>",
           "weight": 0.0
         },
         {
-          "id": 33,
-          "text": "patients",
-          "html": "",
+          "id": 5757,
+          "text": "",
+          "html": "<p><code>patients</code></p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite! What do we need to do to set up a many-to-many association?</span></div>\n</div>",
+          "comments_html": "<p>Not quite! What do we need to do to set up a many-to-many association?</p>",
           "weight": 0.0
         },
         {
-          "id": 3381,
-          "text": "It's necessary to create a join table.",
-          "html": "",
+          "id": 5199,
+          "text": "",
+          "html": "<p>It's necessary to create a join table.</p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! This is a many-to-many association, so we'll need to create a join table.</span></div>\n</div>",
+          "comments_html": "<p>Yes! This is a many-to-many association, so we'll need to create a join table.</p>",
           "weight": 100.0
         },
         {
-          "id": 2302,
-          "text": "I don't know.",
-          "html": "",
+          "id": 848,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -520,110 +463,37 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Say we have a many-to-many relationship among <code>Doctor</code>, <code>Patient</code> and <code>Appointment</code><br>models, where a doctor has many patients through appointments and vice versa.</p>\n<p>When setting up the Active Record associations in the <code>Doctor</code> model, we<br><strong>must</strong> specify its relationship with <code>Appointment</code> <strong>before</strong> we can specify<br>its relationship with <code>Patient</code>.</p>",
+      "question_text": "<p>Say we have a many-to-many relationship among <code>Doctor</code>, <code>Patient</code> and<br>\n<code>Appointment</code> models, where a doctor has many patients through appointments and\nvice versa.</p>\n\n<p>When setting up the Active Record associations in the <code>Doctor</code> model, we<br>\n<strong>must</strong> specify its relationship with <code>Appointment</code> <strong>before</strong> we can specify<br>\nits relationship with <code>Patient</code>.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\">Many to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7737,
-          "text": "True",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! The association with </span><span>Appointment</span><span>&nbsp;needs to be set up before we can set up an association </span><strong>through</strong><span>&nbsp;it</span></div>\n</div>",
-          "weight": 100.0
-        },
-        {
-          "id": 6027,
-          "text": "False",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite! The association with </span><span>Appointment</span><span>&nbsp;needs to be set up before we can set up an association </span><span><strong>through</strong></span><span> it.</span></div>\n</div>",
-          "weight": 0.0
-        },
-        {
-          "id": 4849,
-          "text": "I don't know.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 19076,
-      "id": 149492,
-      "quiz_group_id": null,
-      "assessment_question_id": 185553,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Which of the following is <strong>not</strong> true about using Active Record to set up relationships among models?</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong>&nbsp;</p>\n<ul>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133959?module_item_id=278759\" target=\"_blank\">One to Many Associations</a></li>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/134080?module_item_id=278760\" target=\"_blank\">Many to Many Associations</a></li>\n<li><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/74088?module_item_id=143912\" target=\"_blank\">Active Record Association Methods</a></li>\n</ul>",
-      "answers": [
-        {
-          "id": 7560,
-          "text": "It enables us to accomplish things that we couldn't accomplish with Ruby and SQL alone.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Correct! It is </span><strong>not</strong><span> true that Active Record allows us to accomplish things we can't accomplish with Ruby and SQL alone. It just saves us from doing all that coding ourselves!</span></div>\n</div>",
-          "weight": 100.0
-        },
-        {
-          "id": 1715,
-          "text": "Once it's configured, it automatically gives us access to a number of instance methods.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. This <strong>is</strong></span><span> true of using Active Record.</span></div>\n</div>",
-          "weight": 0.0
-        },
-        {
-          "id": 9890,
-          "text": "It makes it unnecessary to write SQL code ourselves.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<p><span>Not quite. This <strong>is</strong></span><span> true of using Active Record.</span></p>",
-          "weight": 0.0
-        },
-        {
-          "id": 2027,
+          "id": 2446,
           "text": "",
-          "html": "<p>It is consistent with the <strong>convention over configuration</strong> philosophy.</p>",
+          "html": "<p>True</p>",
           "comments": "",
-          "comments_html": "<p><span>Not quite. This <strong>is</strong></span><span> true of using Active Record.</span></p>",
+          "comments_html": "<p>Yes! The association with Appointment needs to be set up before we can set up\nan association <strong>through</strong> it. In other words, this code will not work:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Doctor</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:patients</span><span class=\"p\">,</span> <span class=\"ss\">through: :appointments</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:appointments</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>But this will:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Doctor</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:appointments</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:patients</span><span class=\"p\">,</span> <span class=\"ss\">through: :appointments</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
+          "weight": 100.0
+        },
+        {
+          "id": 8497,
+          "text": "",
+          "html": "<p>False</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite! The association with Appointment needs to be set up before we can\nset up an association <strong>through</strong> it. In other words, this code will not work:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Doctor</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:patients</span><span class=\"p\">,</span> <span class=\"ss\">through: :appointments</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:appointments</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>But this will:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Doctor</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:appointments</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:patients</span><span class=\"p\">,</span> <span class=\"ss\">through: :appointments</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "weight": 0.0
         },
         {
-          "id": 6732,
-          "text": "You need to follow some strict naming conventions for it to work.",
-          "html": "",
+          "id": 6835,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Not quite. This <strong>is</strong></span><span> true of using Active Record.</span></p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7583,
-          "text": "I don't know.",
-          "html": "",
-          "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -642,63 +512,70 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>For the next three questions, say we have used Active Record to set up a<br>many-to-many relationship among <code>Teacher</code>, <code>Student</code> and <code>Class</code> models, such that a<br>teacher has many students through classes and vice versa.</p>\n<p>Which of the following methods will Active Record make available to instances<br>of the <code>Teacher</code> model? (select all that apply)</p>",
+      "question_text": "<p>Say we have used Active Record to set up a many-to-many relationship among\n<code>Teacher</code>, <code>Student</code> and <code>Course</code> models, such that a teacher has many students\nthrough courses and vice versa.</p>\n\n<p>Given the following code in the <code>Teacher</code> model:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Teacher</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:courses</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:students</span><span class=\"p\">,</span> <span class=\"ss\">through: :courses</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What instance methods will be available on a teacher instance? Select all that\napply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/74088?module_item_id=143912\" target=\"_blank\">Active Record Association Methods</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "5806",
-          "text": "#class",
+          "id": 3284,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a teacher </span><strong>has many</strong><span> classes.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a teacher <strong>has many</strong> courses.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#course</code></p>"
         },
         {
-          "id": "5802",
-          "text": "#classes",
+          "id": 338,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A teacher has many classes, so Active Record provides a #</span><span>classes</span><span>&nbsp;instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Yes! Using the <code>has_many :courses</code> method will create a <code>#courses</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": "6805",
-          "text": "#student",
+          "id": 3488,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a teacher </span><strong>has many</strong><span> students.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a teacher <strong>has many</strong> students.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#student</code></p>"
         },
         {
-          "id": "7246",
-          "text": "#students",
+          "id": 9409,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A teacher has many students, so Active Record provides a #</span><span>students</span><span> instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Yes! Using the <code>has_many :students</code> method will create a <code>#students</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#students</code></p>"
         },
         {
-          "id": "6128",
-          "text": "#teacher",
+          "id": 3817,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": "1367",
-          "text": "#teachers",
+          "id": 3214,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": "1299",
-          "text": "I don't know.",
+          "id": 2085,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -716,63 +593,70 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following methods will Active Record make available to instances of the <code>Student</code> model? (select all that apply)</p>",
+      "question_text": "<p>Say we have used Active Record to set up a many-to-many relationship among\n<code>Teacher</code>, <code>Student</code> and <code>Course</code> models, such that a teacher has many students\nthrough courses and vice versa.</p>\n\n<p>Given the following code in the <code>Student</code> model:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Student</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:courses</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:teachers</span><span class=\"p\">,</span> <span class=\"ss\">through: :courses</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What instance methods will be available on a student instance? Select all that\napply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/74088?module_item_id=143912\" target=\"_blank\">Active Record Association Methods</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9646",
-          "text": "#class",
+          "id": 9308,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a student </span><strong>has many</strong><span>&nbsp;classes.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a student <strong>has many</strong> courses.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#course</code></p>"
         },
         {
-          "id": "1490",
-          "text": "#classes",
+          "id": 5918,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A student has many classes, so Active Record provides a #</span><span>classes</span><span> instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Yes! Using the <code>has_many :courses</code> method will create a <code>#courses</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": "9033",
-          "text": "#student",
+          "id": 7644,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a student <strong>has many</strong> teachers.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": "2385",
-          "text": "#students",
+          "id": 2520,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Yes! Using the <code>has_many :teachers</code> method will create a <code>#teachers</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": "3713",
-          "text": "#teacher",
+          "id": 5103,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a student </span><strong>has many</strong><span> teachers.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#student</code></p>"
         },
         {
-          "id": "8513",
-          "text": "#teachers",
+          "id": 6927,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A student has many teachers, so Active Record provides a #</span><span>teachers</span><span> instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#students</code></p>"
         },
         {
-          "id": "8863",
-          "text": "I don't know.",
+          "id": 6479,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -790,63 +674,70 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following methods will Active Record make available to instances<br>of the <code>Class</code> model? (select all that apply)</p>",
+      "question_text": "<p>Say we have used Active Record to set up a many-to-many relationship among\n<code>Teacher</code>, <code>Student</code> and <code>Course</code> models, such that a teacher has many students\nthrough courses and vice versa.</p>\n\n<p>Given the following code in the <code>Course</code> model:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">course</span> <span class=\"no\">Course</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:student</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:teacher</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What instance methods will be available on a course instance? Select all that\napply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/74088?module_item_id=143912\" target=\"_blank\">Active Record Association Methods</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9689",
-          "text": "#class",
+          "id": 4022,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#course</code></p>"
         },
         {
-          "id": "3390",
-          "text": "#classes",
+          "id": 1544,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": "6727",
-          "text": "#student",
+          "id": 7166,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A class </span><strong>belongs to</strong><span> a student, so Active Record provides a #</span><span>student</span><span> instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Yes! Using the <code>belongs_to :student</code> method will create a <code>#student</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#student</code></p>"
         },
         {
-          "id": "424",
-          "text": "#students",
+          "id": 8487,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a class </span><strong>belongs to</strong><span> a student.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a course <strong>belongs to</strong> a student.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#students</code></p>"
         },
         {
-          "id": "7446",
-          "text": "#teacher",
+          "id": 7546,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Yes! A class </span><strong>belongs to</strong><span> a teacher, so Active Record provides a #</span><span>teacher</span><span> instance method.</span></div>\n</div>",
-          "weight": 100.0
+          "comments_html": "<p>Yes! Using the <code>belongs_to :teacher</code> method will create a <code>#teacher</code> instance\nmethod.</p>",
+          "weight": 100.0,
+          "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": "6485",
-          "text": "#teachers",
+          "id": 5564,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Not quite. Remember, a class </span><strong>belongs to</strong><span>&nbsp;a teacher.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Not quite. Remember, a course <strong>belongs to</strong> a teacher.</p>",
+          "weight": 0.0,
+          "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": "8774",
-          "text": "I don't know.",
+          "id": 514,
+          "text": "",
           "comments": "",
-          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
