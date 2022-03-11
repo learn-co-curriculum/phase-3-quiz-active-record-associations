@@ -4,7 +4,7 @@
     "title": "Active Record Associations Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19076",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19076?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-active-record-associations\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-active-record-associations/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-active-record-associations\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-active-record-associations/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 9648,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "g22911fec9dc1ffdc72feff6cca25bee1",
@@ -359,7 +359,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133959\">One to Many Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 713,
+          "id": "713",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>dog_id</code> foreign key directly when creating a new toy.</p>",
@@ -367,7 +367,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">,</span> <span class=\"ss\">dog_id: </span><span class=\"mi\">2</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 6841,
+          "id": "6841",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes indeed! We can create a new new <code>Toy</code> instance and associate it with the\ncorrect dog by providing a <code>Dog</code> instance, so long as we have the\n<code>belongs_to: :dog</code> method set up in the <code>Toy</code> model.</p>",
@@ -375,7 +375,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"mi\">2</span><span class=\"p\">)</span>\n<span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">,</span> <span class=\"ss\">dog: </span><span class=\"n\">dog</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 3729,
+          "id": "3729",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! We can create a new new <code>Toy</code> instance and associate it with the correct dog\nby using the shovel operator, so long we have set up the <code>has_many :toys</code>\nmethod on the <code>Dog</code> class.</p>",
@@ -383,7 +383,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">dog</span> <span class=\"o\">=</span> <span class=\"no\">Dog</span><span class=\"p\">.</span><span class=\"nf\">find_by</span><span class=\"p\">(</span><span class=\"ss\">id: </span><span class=\"mi\">2</span><span class=\"p\">)</span>\n<span class=\"n\">dog</span><span class=\"p\">.</span><span class=\"nf\">toys</span> <span class=\"o\">&lt;&lt;</span> <span class=\"no\">Toy</span><span class=\"p\">.</span><span class=\"nf\">create</span><span class=\"p\">(</span><span class=\"ss\">name: </span><span class=\"s2\">\"Squeaky Cheeseburger\"</span><span class=\"p\">)</span>\n</code></pre></div>"
         },
         {
-          "id": 5413,
+          "id": "5413",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -522,7 +522,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3284,
+          "id": "3284",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a teacher <strong>has many</strong> courses.</p>",
@@ -530,7 +530,7 @@
           "html": "<p><code>#course</code></p>"
         },
         {
-          "id": 338,
+          "id": "338",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>has_many :courses</code> method will create a <code>#courses</code> instance\nmethod.</p>",
@@ -538,7 +538,7 @@
           "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": 3488,
+          "id": "3488",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a teacher <strong>has many</strong> students.</p>",
@@ -546,7 +546,7 @@
           "html": "<p><code>#student</code></p>"
         },
         {
-          "id": 9409,
+          "id": "9409",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>has_many :students</code> method will create a <code>#students</code> instance\nmethod.</p>",
@@ -554,7 +554,7 @@
           "html": "<p><code>#students</code></p>"
         },
         {
-          "id": 3817,
+          "id": "3817",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -562,7 +562,7 @@
           "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": 3214,
+          "id": "3214",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -570,7 +570,7 @@
           "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": 2085,
+          "id": "2085",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -603,7 +603,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9308,
+          "id": "9308",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a student <strong>has many</strong> courses.</p>",
@@ -611,7 +611,7 @@
           "html": "<p><code>#course</code></p>"
         },
         {
-          "id": 5918,
+          "id": "5918",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>has_many :courses</code> method will create a <code>#courses</code> instance\nmethod.</p>",
@@ -619,7 +619,7 @@
           "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": 7644,
+          "id": "7644",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a student <strong>has many</strong> teachers.</p>",
@@ -627,7 +627,7 @@
           "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": 2520,
+          "id": "2520",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>has_many :teachers</code> method will create a <code>#teachers</code> instance\nmethod.</p>",
@@ -635,7 +635,7 @@
           "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": 5103,
+          "id": "5103",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -643,7 +643,7 @@
           "html": "<p><code>#student</code></p>"
         },
         {
-          "id": 6927,
+          "id": "6927",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -651,7 +651,7 @@
           "html": "<p><code>#students</code></p>"
         },
         {
-          "id": 6479,
+          "id": "6479",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -674,7 +674,7 @@
       "position": null,
       "question_name": "Question",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Say we have used Active Record to set up a many-to-many relationship among\n<code>Teacher</code>, <code>Student</code> and <code>Course</code> models, such that a teacher has many students\nthrough courses and vice versa.</p>\n\n<p>Given the following code in the <code>Course</code> model:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">course</span> <span class=\"no\">Course</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:student</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:teacher</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What instance methods will be available on a course instance? Select all that\napply.</p>",
+      "question_text": "<p>Say we have used Active Record to set up a many-to-many relationship among\n<code>Teacher</code>, <code>Student</code> and <code>Course</code> models, such that a teacher has many students\nthrough courses and vice versa.</p>\n\n<p>Given the following code in the <code>Course</code> model:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Course</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveRecord</span><span class=\"o\">::</span><span class=\"no\">Base</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:student</span>\n  <span class=\"n\">belongs_to</span> <span class=\"ss\">:teacher</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>What instance methods will be available on a course instance? Select all that\napply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -684,7 +684,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/74088\">Active Record Association Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4022,
+          "id": "4022",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -692,7 +692,7 @@
           "html": "<p><code>#course</code></p>"
         },
         {
-          "id": 1544,
+          "id": "1544",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -700,7 +700,7 @@
           "html": "<p><code>#courses</code></p>"
         },
         {
-          "id": 7166,
+          "id": "7166",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>belongs_to :student</code> method will create a <code>#student</code> instance\nmethod.</p>",
@@ -708,7 +708,7 @@
           "html": "<p><code>#student</code></p>"
         },
         {
-          "id": 8487,
+          "id": "8487",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a course <strong>belongs to</strong> a student.</p>",
@@ -716,7 +716,7 @@
           "html": "<p><code>#students</code></p>"
         },
         {
-          "id": 7546,
+          "id": "7546",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes! Using the <code>belongs_to :teacher</code> method will create a <code>#teacher</code> instance\nmethod.</p>",
@@ -724,7 +724,7 @@
           "html": "<p><code>#teacher</code></p>"
         },
         {
-          "id": 5564,
+          "id": "5564",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Remember, a course <strong>belongs to</strong> a teacher.</p>",
@@ -732,7 +732,7 @@
           "html": "<p><code>#teachers</code></p>"
         },
         {
-          "id": 514,
+          "id": "514",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
